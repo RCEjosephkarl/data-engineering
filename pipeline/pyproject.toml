@@ -135,6 +135,8 @@ dependencies = [
     "prometheus-client==0.24.0",
     "prompt-toolkit==3.0.52",
     "psutil==7.2.1",
+    "psycopg2-binary>=2.9.11",
+    "psycopg[binary]>=3.3.2",
     "ptyprocess==0.7.0",
     "pure-eval==0.2.3",
     "py-key-value-aio==0.3.0",
@@ -194,6 +196,7 @@ dependencies = [
     "tinycss2==1.4.0",
     "toml==0.10.2",
     "tornado==6.5.4",
+    "tqdm>=4.67.1",
     "traitlets==5.14.3",
     "typeguard==4.4.4",
     "typer==0.20.1",
@@ -216,4 +219,10 @@ dependencies = [
     "widgetsnbextension==4.0.15",
     "wrapt==1.17.3",
     "zipp==3.23.0",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "pgcli>=4.3.0",
 ]

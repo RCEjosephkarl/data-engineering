@@ -128,6 +128,7 @@ prefect==3.6.10
 prometheus_client==0.24.0
 prompt_toolkit==3.0.52
 psutil==7.2.1
+psycopg-binary==3.3.2
 ptyprocess==0.7.0
 pure_eval==0.2.3
 py-key-value-aio==0.3.0
